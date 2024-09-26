@@ -1,0 +1,31 @@
+.card {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 10px 15px -3px rgba(67, 11, 131, 0.808);
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+.card-main {
+    border-radius: 6px;
+    box-shadow: 0px 10px 15px -3px rgba(67, 11, 131, 0.808);
+    padding-bottom: 6px;
+    overflow: hidden;
+}
+
+.card-main h2,
+.card-main p {
+    padding-left: 16px;
+}
+
+.card-main img {
+    width: 100%;
+}
